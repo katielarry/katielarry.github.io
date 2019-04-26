@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta charset="utf-8" />
+    <meta
+      id="viewport"
+      name="viewport"
+      content="width=1024, initial-scale=1.0"
+    />
+    <title>Katie Larry's Portfolio</title>
+    <!-- <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="css/images/favicon1.ico"
+    /> -->
+
+    <!-- <link rel="icon" type="image/png" href="css/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="css/images/favicon-16x16.png" sizes="16x16"> -->
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:500|Montserrat:300"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Vendor JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="jquery.js"></script>
+    <!-- App JS -->
+    <script src="js/test.js"></script>
+    <script src="js/functions.js"></script>
+    <script>
+      if (screen.width <= 767) {
+        var mvp = document.getElementById("viewport");
+        mvp.setAttribute(
+          "content",
+          "width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"
+        );
+      }
+    </script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="shell">
+          <a href="index.html" class="logo animated">Katie Larry</a>
+          <a href="#" class="burger-menu animated">
+            <span></span> <span></span> <span></span>
+          </a>
+          <!-- Nav -->
+          <nav class="nav header__nav">
+            <ul>
+              <li class="animated"><a href="#section-next">Work</a></li>
+              <li class="animated"><a href="#">About</a></li>
+              <li class="animated"><a href="#">Resumé</a></li>
+              <li class="animated"><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <!-- Intro -->
+      <div class="intro animated">
+        <!-- <div class="shell"> -->
+        <div class="intro__content">
+          <p class="animated">
+            <strong
+              >HELLO.<br />I'M KATIE LARRY.<br />I LOVE TO CREATE<br />
+              BEAUTIFUL INTERFACES +<br />
+              EXCELLENT USER EXPERIENCES.<br
+            /></strong>
+          </p>
+        </div>
+        <a href="#section-next" class="intro__link">
+          <i class="ico-chevron"></i>
+        </a>
+        <!-- </div> -->
+      </div>
+      <div class="projects-container">
+        <!-- Section Bags with a Purpose -->
+        <section class="section section--black" id="section-next">
+          <div class="shell">
+            <div class="section__inner">
+              <div class="section__content animated">
+                <a>bagswithapurpose</a>
+                <h4 class="white-text">
+                  BAGS WITH A<br />
+                  PURPOSE.
+                </h4>
+                <p class="white-text">
+                  Give joy, save the environment,<br />
+                  and look good while shopping,<br />
+                  just by using one simple bag.
+                </p>
+                <div class="section__actions">
+                  <a
+                    href="project.html"
+                    class="btn btn--pink section__btn white-text"
+                    >View case study</a
+                  >
+                  <!-- <a href="project.html" class="btn btn--blue section__btn" -->
+                  <!-- <a>View case study</a> -->
+                </div>
+              </div>
+              <div class="section__aside animated">
+                <img
+                  class="projects_pic"
+                  src="css/images/bagswithapurpose.png"
+                  alt="Picture of a Bag."
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Section OnePlace -->
+        <section
+          class="section section--reverse section--white section--primary animated"
+        >
+          <div class="shell">
+            <div class="section__inner">
+              <div class="section__content animated">
+                <a href="#" class="logo-OnePlace logo-nakedbox">
+                  One<strong>Place</strong>
+                </a>
+                <h3>
+                  GO TO ONEPLACE<span class="visible-xs-block"></span> FOR
+                  EVERYTHING.
+                </h3>
+                <p>
+                  The OnePlace application is a <br />
+                  one-stop shop for all of your <br />
+                  productivity needs.
+                </p>
+                <div class="section__actions">
+                  <a
+                    href="project.html"
+                    class="btn btn--pink section__btn white-text"
+                    >View case study</a
+                  >
+                </div>
+              </div>
+              <div class="section__aside animated">
+                <img
+                  class="projects_pic"
+                  src="css/images/oneplace.png"
+                  alt="Picture of the OnePlace application."
+                  id="oneplaceimage"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Section User Experience Process -->
+        <section class="section section--black section--secondary">
+          <div class="shell">
+            <div class="section__inner">
+              <div class="section__content animated">
+                <h3 class="white-text">UX PROCESS</h3>
+                <p>
+                  <strong class="white-text"
+                    >USER RESEARCH | IA | WIREFRAME | PROTOTYPES</strong
+                  >
+                  <br />
+                </p>
+                <p class="white-text">
+                  I start a project by defining and scoping the problem at hand.
+                  Then, I figure out the goal of the final product. After
+                  conducting user research, interviews and surveys, I begin to
+                  devise strategic solutions in the form of sitemaps, wireframes
+                  and prototypes. I test the usability of my design and iterate
+                  upon them to ensure an excellent user experience.
+                </p>
+              </div>
+              <div class="section__aside animated" id="uxprocessimage">
+                <img
+                  class="projects_pic"
+                  src="css/images/uxprocess.png"
+                  alt="Picture of wireframes."
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- Section User Interface Process -->
+      <section
+        class="section section--reverse section--white section--primary animated"
+      >
+        <div class="shell">
+          <div class="section__inner">
+            <div class="section__content animated">
+              <h3>USER INTERFACE PROCESS</h3>
+              <p>
+                <strong>UI ELEMENTS | INTERACTIONS | BRANDING</strong><br />
+              </p>
+              <p>
+                I find the right brand language that forms the unique UI
+                elements for each product. I make creative design decisions in
+                order to best translate any given UX wireframe into a smooth and
+                intuitive interaction. I often communicate my design through
+                animated and interactive prototypes. Then, create the necessary
+                files to develop the product.
+              </p>
+            </div>
+            <div class="section__aside animated" id="uiprocessimage">
+              <img
+                class="projects_pic"
+                src="css/images/uiprocess.png"
+                alt="Picture of design on a desktop."
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Section Tools I Use -->
+
+      <section class="tool-section" data-ix="tool-section">
+        <div class="tool-container animated">
+          <h1 class="about-text smaller tools-text animated">TOOLS I USE</h1>
+          <div class="tool-item-block">
+            <img
+              src="css/images/github.png"
+              alt="Picture of the GitHub logo."
+              width="102"
+            />
+            <div class="text-block-7">GITHUB</div>
+          </div>
+
+          <div class="tool-item-block">
+            <img
+              src="css/images/html.png"
+              alt="Picture of the HTML logo."
+              width="143.25"
+            />
+            <div class="text-block-7">HTML</div>
+          </div>
+          <div class="tool-item-block">
+            <img
+              src="css/images/css.png"
+              alt="Picture of the CSS logo."
+              width="143.25"
+            />
+            <div class="text-block-7">CSS</div>
+          </div>
+          <div class="tool-item-block">
+            <img
+              src="css/images/javascript.png"
+              alt="Picture of the JavaScript logo."
+              width="143.25"
+            />
+            <div class="text-block-7">JAVASCRIPT</div>
+          </div>
+
+          <div class="tool-item-block">
+            <img
+              src="css/images/figma.png"
+              alt="Picture of the Figma logo."
+              width="95.75"
+            />
+            <div class="text-block-7">FIGMA</div>
+          </div>
+          <div class="tool-item-block">
+            <img
+              src="css/images/invision.png"
+              alt="Picture of the Invision logo."
+              width="107"
+            />
+            <div class="text-block-7">INVISION</div>
+          </div>
+        </div>
+        <!-- </div> -->
+      </section>
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="shell">
+          <div class="footer__inner">
+            <a href="#" class="footer__link"> <h4>CONTACT</h4> </a>
+            <p>
+              Thank you for stopping by!<br />
+              Feel free to contact me anytime.
+            </p>
+            <!-- Social icons -->
+            <div class="socials">
+              <ul>
+                <li>
+                  <a href="contact.html"> <i class="ico-mail"></i> </a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/edlim0384/">
+                    <i class="ico-linkedin"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/EdLim84">
+                    <i class="ico-cat"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://dribbble.com/el8403">
+                    <i class="ico-globe"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
