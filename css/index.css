@@ -310,9 +310,9 @@ blockquote:last-child {
   margin: auto;
 } */
 
-.shell-fluid {
+/* .shell-fluid {
   max-width: none;
-}
+} */
 
 .wrapper {
   /* min-height: 100vh; */
@@ -387,7 +387,7 @@ blockquote:last-child {
 }
 
 .btn--pink {
-  background: #000000;
+  background: #f07e81;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
@@ -959,7 +959,7 @@ b {
   flex: 0 0 500px;
   max-width: 500px;
   margin-top: -22px;
-  padding-left: 51px;
+  margin: 250px;
 }
 .section .section__btn {
   margin-left: -4px;
@@ -1006,16 +1006,17 @@ b {
   -webkit-flex: 0 1 100%;
   -ms-flex: 0 1 100%;
   flex: 0 1 100%;
-  /* position: relative; */
-  left: 38px;
+  position: relative;
+  /* left: 38px; */
   padding-top: 8px;
-  margin-left: -47px;
-  margin-right: 25px;
+  /* margin-left: 200px; */
+  margin-right: 150px;
+  /* margin:0 auto; */
 }
 .section img {
   width: 100%;
   height: auto;
-  margin-top: 50px;
+  /* margin-top: 50px; */
 }
 .section h3 {
   margin-left: -4px;
@@ -1150,9 +1151,9 @@ b {
   }
 }
 @media (max-width: 1200px) {
-  .section .section__aside {
-    /* margin-right: 0; */
-  }
+  /* .section .section__aside {
+    margin-right: 0;
+  } */
   .section--primary .section__aside {
     margin-left: 0;
     margin-right: 40px;

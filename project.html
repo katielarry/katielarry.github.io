@@ -4,20 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Katie Larry's Portfolio</title>
-
-    <!-- reset -->
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/project.css" />
-    <!-- Font Awesome Icons -->
     <link
       href="https://use.fontawesome.com/releases/v5.0.6/css/all.css"
       rel="stylesheet"
     />
-    <!-- fonts -->
-    <!-- <link rel="stylesheet" href="styles/MyFontsWebfontsKit.css"> -->
-    <!-- Custom Styles -->
-    <!-- <link rel="stylesheet" href="css/main.css"> -->
-    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="jquery.js"></script>
+    <script src="js/test.js"></script>
+    <script src="js/functions.js"></script>
+    <script>
+      if (screen.width <= 767) {
+        var mvp = document.getElementById("viewport");
+        mvp.setAttribute(
+          "content",
+          "width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"
+        );
+      }
+    </script>
   </head>
   <body>
     <div class="wrapper">
@@ -41,12 +46,14 @@
 
       <main>
         <section>
-          <div class="section-label">
-            <span class="label padding-top">SUMMARY</span>
+          <div class="textbox">
+            <img src="css/images/heroimage.png" alt="herimage"/>
+            <!-- <div class="line"></div> -->
+            <div class="label">SUMMARY</div>
           </div>
           <div class="textbox">
-            <h3 class="off">OnePlace</h3>
-            <p class="label">User Experience design &amp; Branding</p>
+            <!-- <h3 class="off">OnePlace</h3> -->
+            <h3>User Experience design &amp; Branding</h3>
             <p class="desc">
               Cloud storage platforms are in high demand as people need more
               storage to keep their personal and professional lives organized.
@@ -92,31 +99,30 @@
           </div>
         </section>
 
-        <section class="prototypes">
-          <div class="half center off">
-            <a class="off" href="https://invis.io/MYFBKAP36E5" target="_blank">
-              <div class="desktop-icon"><p></p></div>
-              <!-- <img  class="off desktop-icon" src="images/Common/desktop-icon.gif" alt="desktop icon"> -->
-              <!-- <img  class="desktop-gif" src="images/Common/desktop-hover.gif" alt="desktop icon"> -->
-              <p class="off">View Desktop Prototype</p>
+        <!-- <section class="prototypes">
+          <div class="left">
+            <a class="off" href="https://www.figma.com/proto/VheGCdhqGjVpMb8oyW2kL2Sv/OnePlace?node-id=250%3A223&scaling=min-zoom" target="_blank">
+              <img class="desktop-gif" src="css/images/desktop-icon.gif" alt="desktop icon">
+              <p class="off">VIEW PROTOTYPE</p>
             </a>
-          </div>
-          <div class="half center">
-            <a href="https://invis.io/C5FBN2LZK4V" target="_blank">
-              <div class="mobile-icon"><p></p></div>
+          </div> -->
+          <!-- <div class="half center"> -->
+            <!-- <a href="https://invis.io/C5FBN2LZK4V" target="_blank"> -->
+              <!-- <div class="mobile-icon"><p></p></div> -->
 
               <!-- <img src="images/Common/mobile.png" alt="mobile icon"> -->
-              <p>View Mobile Prototype</p>
-            </a>
-          </div>
+              <!-- <p>View Mobile Prototype</p> -->
+            <!-- </a> -->
+          <!-- </div> -->
         </section>
 
         <section>
-          <div class="section-label">
-            <span class="label">OVERVIEW</span>
+          <div class="textbox">
+            <!-- <div class="line"></div> -->
+            <div class="label">OVERVIEW</div>
           </div>
           <div class="textbox">
-            <div class="line"><p></p></div>
+            <!-- <div class="line"><p></p></div> -->
             <h3>PROCESS</h3>
             <ol class="num-list">
               <li>Phase 1. Research and Testing (Round 1)</li>
@@ -162,6 +168,16 @@
                 platform so that it can withstand uploading large files.
               </li>
             </ol>
+            <section class=colored>
+            <section class="prototypes">
+              <div class="center">
+                <a class="off" href="https://www.figma.com/proto/VheGCdhqGjVpMb8oyW2kL2Sv/OnePlace?node-id=189%3A12&scaling=min-zoom" target="_blank">
+                  <img class="desktop-gif" src="css/images/desktop-icon.gif" alt="desktop icon">
+                  <p class="off">VIEW CLICKABLE PROTOTYPE</p>
+                </a>
+              </div>
+            </section>
+          </section>
           </div>
         </section>
 
@@ -172,13 +188,12 @@
         <section>
           <section>
             <div class="section-label">
-              <span class="label">PHASE 1: RESEARCH & TESTING (ROUND 1)</span>
+              <span class="label"></span>
             </div>
             <div class="textbox">
-              <div class="line"><p></p></div>
+              <div class="label">PHASE 1: RESEARCH & TESTING (ROUND 1)</div>
               <h3>PHASE 1: OVERVIEW</h3>
-              <div class="vertical-line">
-                <ol class="quote">
+                <ol class="num-list">
                   <li>1. Assumptions</li>
                   <li>2. User Research</li>
                   <li>3. User Personas</li>
@@ -187,8 +202,7 @@
                   <li>6. Content Strategy & Wireframes</li>
                   <li>7. Wireframe Usability Testing</li>
                 </ol>
-                <h3>ASSUMPTIONS</h3>
-                <h3>AUDIENCE</h3>
+                <h3>ASSUMPTIONS: AUDIENCE</h3>
                 <ol class="num-list">
                   <li>1. People who store everything.</li>
                   <li>
@@ -200,7 +214,7 @@
                     better system to help with organization.
                   </li>
                 </ol>
-              </div>
+
               <!-- for vertical line  -->
               <p class="caseStudy-text padding-top">
                 Most people fall into the third category and just need a little
@@ -215,7 +229,7 @@
           </section>
           <!-- user research -->
           <section class="colored">
-            <h2 class="user-research">USER RESEARCH</h2>
+            <h3 class="user-research">USER RESEARCH</h3>
             <div class="user-research">
               <div class="third mobile-half">
                 <h3>100%</h3>
@@ -274,22 +288,24 @@
           </section>
           <!-- user personas -->
           <section class="personas">
+            <div class="textbox">
             <h3 class="textbox margin-left">USER PERSONAS</h3>
+            <p class="caseStudy-text padding-top">
+              I created two target audiences in my personas represented by a
+              person in the workforce who used cloud storage and a student
+              who also used cloud storage because 45% of the people who took
+              the survey were full-time employees and 36% of survey takers
+              were students.
+            </p>
+          </div>
             <div class="half align-top">
               <img src="css/images/michael.png" alt="persona image" />
               <div class="persona-l">
-                <p class="caseStudy-text padding-top">
-                  I created two target audiences in my personas represented by a
-                  person in the workforce who used cloud storage and a student
-                  who also used cloud storage because 45% of the people who took
-                  the survey were full-time employees and 36% of survey takers
-                  were students.
-                </p>
-                <h4>MICHAEL JOHNSON</h4>
+                <h3>MICHAEL JOHNSON</h3>
                 <p class="percent-desc">
                   30 year old project manager living in Malibu, Ca.
                 </p>
-                <p class="desc uppercase">GOALS</p>
+                <p class="desc uppercase">MOTIVATIONS</p>
                 <p class="caseStudy-text">
                   Use a platform that allows me to be the most effective and
                   efficient project manager so my team thrives. Keep everything
@@ -313,11 +329,11 @@
             <div class="half right align-top">
               <img src="css/images/alexis.png" alt="persona image" />
               <div class="persona-r">
-                <h4>ALEXIS SMITH</h4>
+                <h3>ALEXIS SMITH</h3>
                 <p class="percent-desc">
                   23 year old UX/UI Student living in Atlanta, GA
                 </p>
-                <p class="desc uppercase">GOALS</p>
+                <p class="desc uppercase">MOTIVATIONS</p>
                 <p class="caseStudy-text">
                   Use one platform where she can stay on track with assignments,
                   collaborate with other students and keep all her work in one
@@ -336,17 +352,14 @@
                 </div> -->
                 <p class="desc uppercase">FRUSTRATIONS</p>
                 <p class="caseStudy-text">
-                  Lack of space on devices and software
-                </p>
-                <p class="caseStudy-text">Cost is too expensive</p>
-                <p class="caseStudy-text">
-                  Needs a bookmark feature for online links and recources.
+                  Lack of space on devices and software, cost is too expensive, and it needs a bookmark feature for online links and resources.
                 </p>
               </div>
             </div>
           </section>
           <!-- compentive analysis -->
-          <section class="textbox margin-left">
+          <section class="colored">
+          <div class="user-research">
             <h3>COMPETITIVE ANALYSIS</h3>
             <p class="caseStudy-text">
               The goal with OnePlace was to make a cloud storage site that
@@ -354,13 +367,17 @@
               in-depth competitive analysis of the most popular cloud storage
               sites which included, Dropbox, Google, and OneDrive.
             </p>
-            <p class="caseStudy-text">
-              Strengths: file sharing, file syncing, intuitive design.
-            </p>
-            <p class="caseStudy-text">
-              Weaknesses: low security regarding Google Drive and high pricing
-              for access to OneDrive and Dropbox’s platforms.
-            </p>
+            <h3>STRENGTHS</h3>
+            <ol class="num-list">
+              <li>1. File Sharing</li>
+              <li>2. File Syncing</li>
+              <li>3. Intuitive Design</li>
+            </ol>
+            <h3>WEAKNESSES</h3>
+              <ol class="num-list">
+                <li>1. Low security regarding Google Drive</li>
+                <li>2. High Pricing for access to OneDrive and Dropbox’s platforms</li>
+          </section>
           </section>
           <!-- user flows and user stories -->
           <section>
@@ -383,6 +400,7 @@
                 <li>7. Organizing Content</li>
               </ol>
             </div>
+            <img src="css/images/userflowsketch.png" alt="user flow images" />
             <img src="css/images/userflows.png" alt="user flow images" />
           </section>
           <!-- </div> -->
@@ -422,8 +440,9 @@
         <section>
           <!-- summary -->
           <section>
-            <div class="section-label">
-              <span class="label">PHASE 2: BRANDING</span>
+            <div class="textbox">
+              <!-- <div class="line"></div> -->
+              <div class="label">PHASE 2: BRANDING</div>
             </div>
             <div class="textbox">
               <h3 class="branding">PHASE 2 OVERVIEW: BRANDING</h3>
@@ -459,6 +478,9 @@
             </div>
           </section>
           <section>
+            <h3>MINDMAPPING</h3>
+            <img src="css/images/mindmappingsketch.png" alt="logo sketches" />
+
             <h3>LOGO DESIGN</h3>
             <img src="css/images/logodesign.png" alt="logo sketches" />
 
@@ -480,11 +502,12 @@
         <section>
           <!-- Wireframes -->
           <section>
-            <div class="section-label">
-              <span class="label">PHASE 3: TESTING (ROUND 2)</span>
+            <div class="textbox">
+              <!-- <div class="line"></div> -->
+              <div class="label">PHASE 3: TESTING (ROUND 2)</div>
             </div>
             <div class="textbox margin-top">
-              <div class="line"><p></p></div>
+              <!-- <div class="line"><p></p></div> -->
               <h3>TESTING (ROUND 2) OVERVIEW</h3>
               <ol class="num-list">
                 <li>1. Preference Testing</li>
@@ -563,7 +586,10 @@
 
           <!--final product features -->
           <section>
-            <h3>PHASE 4: FINAL PRODUCT FEATURES</h3>
+            <div class="textbox">
+              <!-- <div class="line"></div> -->
+              <div class="label">PHASE 4: FINAL PRODUCT FEATURES</div>
+            </div>
             <div class="prod-feat colored">
               <div class="half align-top top-bottom">
                 <p class="desc uppercase persona-r">ORGANIZE</p>
@@ -602,7 +628,7 @@
                 </p>
               </div>
             </div>
-            <div class="colored prod-feat feat-3">
+            <div class="colored">
               <div class="half align-top top-bottom">
                 <p class="desc uppercase persona-r">SHARE</p>
                 <p class="caseStudy-text persona-r">
@@ -638,7 +664,7 @@
                 </p>
               </div>
 
-              <div class="colored prod-feat feat-3">
+              <div class="colored">
                 <div class="half align-top top-bottom">
                   <p class="desc uppercase persona-r">TALK</p>
                   <p class="caseStudy-text persona-r">
@@ -662,9 +688,13 @@
           </section>
 
           <!-- conclusion -->
+          <div class="textbox">
+            <!-- <div class="line"></div> -->
+            <div class="label">PHASE 5: CONCLUSION</div>
+            </div>
           <section class="colored">
             <div class="large-textbox">
-              <h3>PHASE 5: CONCLUSION</h3>
+              <h3>CONCLUSION</h3>
               <p class="caseStudy-text">
                 Once all the testing and designing was completed, I ended up
                 with a product that was clear, intuitive, and straightforward.
