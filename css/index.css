@@ -238,6 +238,7 @@ blockquote:last-child {
     visibility: hidden;
   }
   .header .logo {
+    float: left;
     margin-top: 0;
     position: static;
     margin: 0 auto;
@@ -1280,7 +1281,7 @@ b {
 #oneplaceimage {
   width: 88%;
   float: right;
-  margin-right: 75px;
+  /* margin-right: 75px; */
   margin-top: 35px;
 }
 
@@ -1520,11 +1521,11 @@ margin-top: -15px;
 ------------------------------------------------------
 ----------------------------------------------------*/
 .ico-cat {
-  background-image: url(images/ico-cat.png);
+  background-image: url(css/images/ico-cat.png);
   background-position: 95% 42.10526315789473%;
   background-size: 372.7272727272727% 359.09090909090907%;
-  width: 22px;
-  height: 22px;
+  width: 24px;
+  height: 24px;
   display: inline-block;
   vertical-align: middle;
   font-size: 0;
@@ -1549,11 +1550,11 @@ margin-top: -15px;
   font-size: 0;
 } */
 .ico-linkedin {
-  background-image: url(images/ico-linkedin.png);
+  background-image: url(css/images/ico-linkedin.png);
   background-position: 43.333333333333336% 98.27586206896551%;
   background-size: 372.7272727272727% 376.1904761904762%;
-  width: 22px;
-  height: 21px;
+  width: 28px;
+  height: 28px;
   display: inline-block;
   vertical-align: middle;
 font-size: 0;
@@ -1562,8 +1563,8 @@ font-size: 0;
   background-image: url(css/images/ico-mail.png);
   background-position: 100% 0%;
   background-size: 328% 395%;
-  width: 25px;
-  height: 20px;
+  width: 28px;
+  height: 28px;
   display: inline-block;
   vertical-align: middle;
   font-size: 0;
@@ -1574,8 +1575,8 @@ font-size: 0;
 
     background-position: 95% 42.10526315789473%;
     background-size: 372.7272727272727% 359.09090909090907%;
-    width: 22px;
-    height: 22px;
+    width: 24px;
+    height: 24px;
     display: inline-block;
     vertical-align: middle;
     font-size: 0;
@@ -1603,11 +1604,10 @@ font-size: 0;
   } */
   .ico-linkedin {
     background-image: url(css/images/ico-linkedin.png);
-
     background-position: 43.333333333333336% 98.27586206896551%;
     background-size: 372.7272727272727% 376.1904761904762%;
-    width: 22px;
-    height: 21px;
+    width: 28px;
+    height: 28px;
     display: inline-block;
     vertical-align: middle;
     font-size: 0;
@@ -1616,8 +1616,8 @@ font-size: 0;
     background-image: url(css/images/ico-mail.png);
     background-position: 100% 0%;
     background-size: 328% 395%;
-    width: 25px;
-    height: 20px;
+    width: 26px;
+    height: 26px;
     display: inline-block;
     vertical-align: middle;
     font-size: 0;
