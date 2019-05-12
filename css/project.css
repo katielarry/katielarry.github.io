@@ -76,9 +76,9 @@ nav ul {
   float: right;
 }
 
-nav li {
+/* nav li {
   float: left;
-}
+} */
 
 nav a {
   display: inline-block;
@@ -113,9 +113,9 @@ section {
   width: 15px;
 }
 
-.wrapper {
+/* .wrapper {
   overflow: hidden;
-}
+} */
 
 /* ----- Header -----*/
 
@@ -456,8 +456,9 @@ section {
 
 	.header .logo {
         margin-top: 0;
-        position: static;
+        /* position: static; */
         margin: 0 auto;
+        top: 18%;
         -webkit-transform: none;
         -ms-transform: none;
         transform: none;
@@ -525,8 +526,28 @@ section {
 -------------------------- Logo -----------
 ------------------------------------------------------
 ----------------------------------------------------*/
-.logo {
-  float: left;
+.logo {background-image: url(../css/images/logo.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 21px;
+    height: 32px;
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    left: 50%;
+    /* -webkit-transform: translate(-50%, -50%); */
+    /* -ms-transform: translate(-50%, -50%); */
+    transform: translate(-50%, -50%);
+    top: 70%;
+    /* margin-top: 2px; */
+    /* opacity: 0; */
+    /* visibility: hidden; */
+    transition: margin-top 0.3s, opacity 1s, visibility 1s;
+    transition-delay: 1.35s;
+    margin-left: -503px;
+    margin-top: 20px;
+  /* float: left;
   background-image: url(../css/images/logo.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -535,7 +556,7 @@ section {
   display: inline;
   font-size: 0;
   line-height: 0;
-  position: relative;
+  position: relative; */
   /* margin-left: 20px; */
   /* left: 50%; */
   /* -webkit-transform: translate(-50%, -50%); */
@@ -661,10 +682,11 @@ section {
 a {
 color: inherit;
 text-decoration: none;
-font-weight: lighter;
+font-weight: bold;
 opacity: 1;
 transition: opacity 0.3s;
 }
+
 /* a:hover {
   color: #f0cf7e;
 } */
@@ -677,8 +699,9 @@ transition: opacity 0.3s;
 /* general typography */
 h1 {
   font-family: "Lato", sans-serif;
-  font-size: 80px;
+  font-size: 64px;
 }
+
 
 h2 {
   font-family: "Lato", sans-serif;
@@ -724,11 +747,17 @@ h4 {
 }
 
 p {
+  margin-top: 15px;
   margin-bottom: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
 }
 
 li {
   font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
 }
 
 .light {
@@ -739,14 +768,16 @@ li {
 
 /* common text-styles typography*/
 .caseStudy-text {
-  font-family: "Montserrat", sans-serif;
+  font-family: "montserrat";
+  font-weight: 300;
   font-size: 18px;
   letter-spacing: 0.04rem;
   line-height: 24px;
 }
 
 .desc {
-  font-family: "Montserrat", sans-serif;
+  font-family: "montserrat", sans-serif;
+
   font-size: 18px;
   letter-spacing: 0.025rem;
   line-height: 33px;
@@ -1220,12 +1251,29 @@ body {
   width: 46%;
   margin-top: 20px;
 }
+
+/* .aboutheroimage {
+  margin-top: 10%;
+} */
+
+
 .container__text {
   margin: 15px;
-  margin-top: 65px;
+  margin-top: 50px;
   display: inline-block;
   width: 46%;
+  padding: 15px;
 }
+
+/* .aboutquote {
+  margin-left: 89px;
+  margin-top: 260px;
+  display: inline-block;
+  width: 39%;
+  padding: 15px;
+  font-size: 64px;
+} */
+
 @media (max-width: 620px) {
   .container__text {
     width: 100%;
@@ -1428,7 +1476,7 @@ p.Info-heading {
   width: 36%;
 }
 #about .darkbg {
-  background-color: #3f3b50 /*rgba(240,126,129,.50)*/;
+  background-color: #3f3b50 rgba(240,126,129,.50);
   margin: 0 auto;
   padding: 50px 20% 100px 16%;
   /* width: 64%; */
@@ -2230,9 +2278,7 @@ font-size: 0;
   }
 
   /* typography */
-  h1 {
-    font-size: 80px;
-  }
+
 
   h2 {
     font-size: 30px;
@@ -2261,6 +2307,7 @@ font-size: 0;
     letter-spacing: 0.04rem;
     line-height: 24px;
   }
+
 
   .desc {
     font-size: 18px;
@@ -2556,7 +2603,11 @@ font-size: 0;
     padding: 4px;
   }
 
-  #about .desc {
+/* #aboutme {
+  margin-left: 15%;
+  margin-right: 15%;
+} */
+  /* #about .desc {
     font-size: 16px;
   }
   #about .section-label,
@@ -2567,6 +2618,8 @@ font-size: 0;
   #about .colored {
     padding-right: 3%;
     padding-top: 3%;
+    margin-left: 45px;
+    margin-right: 45px;
   }
   #about .darkbg .textbox {
     width: 100%;
@@ -2574,7 +2627,7 @@ font-size: 0;
 
   main#about {
     width: 90%;
-  }
+  } */
 
   .darkbg {
     padding: 30px 10%;
@@ -2949,9 +3002,9 @@ font-size: 0;
   a.off {
     display: none;
   }
-  h1 {
+  /* h1 {
     font-size: 56px;
-  }
+  } */
   h3 {
     margin: 30px 0 0px 0;
   }
@@ -3116,14 +3169,24 @@ font-size: 0;
     margin-bottom: 20px;
   }
   .user-research {
-    margin-left: 5%;
+    margin-left: 15%;
+    margin-bottom: 5%;
+    margin-top: 30px;
   }
+
+  /* .about-text {
+    margin-left: 18%;
+    margin-right: 18%;
+    margin-bottom: 5%;
+    margin-top: 30px;
+  } */
+
   .user-research h3 {
     margin-top: 0;
   }
   .user-research .third {
     margin-top: 10px;
-    width: 49%;
+    width: 30%;
   }
   /* persona */
   .personas {

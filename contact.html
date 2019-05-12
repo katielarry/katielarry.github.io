@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Katie Larry's Portfolio</title>
+    <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/project.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link
+      href="https://use.fontawesome.com/releases/v5.0.6/css/all.css"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="jquery.js"></script>
+    <script src="js/test.js"></script>
+    <script src="js/functions.js"></script>
+    <script>
+      if (screen.width <= 767) {
+        var mvp = document.getElementById("viewport");
+        mvp.setAttribute(
+          "content",
+          "width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"
+        );
+      }
+    </script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="shell">
+          <a href="index.html" class="logo animated"></a>
+          <a href="#" class="burger-menu animated">
+            <span></span> <span></span> <span></span>
+          </a>
+          <!-- Nav -->
+          <nav class="nav header__nav">
+            <ul>
+              <li class="animated">
+                <a href="index.html#section-next">Work</a>
+              </li>
+              <li class="animated"><a href="about.html">About</a></li>
+              <li class="animated">
+                <a
+                  href="https://drive.google.com/file/d/1LXg_pyK1b4u6ph6Zq-J2Juapqb-iaRLB/view?usp=sharing"
+                  target="_blank"
+                  >Resumé</a
+                >
+              </li>
+              <li class="animated"><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <div class="intro animated">
+              <!-- <div class="shell"> -->
+              <div class="intro__content">
+        <h3>
+          Have a project<br />
+          you'd like to bring<br />
+          to life?
+        </h3>
+
+        <p>
+          Feel free to connect with me anytime. I am always interested in having a phone conversation or meeting up to discuss design and potential opportunties in further detail.<p/>
+        </p>
+        <p><strong>katielarry2012@gmail.com</strong></p>
+      </div>
+
+      <!-- -------- Form right side content ------------- -->
+
+      <form
+        id="contact"
+        action="https://formspree.io/edward.sb.lim@gmail.com"
+        method="POST"
+      >
+        <input
+          placeholder="Your name"
+          type="text"
+          tabindex="1"
+          required=""
+          autofocus=""
+        />
+
+        <input
+          placeholder="Your Email Address"
+          type="email"
+          tabindex="2"
+          required=""
+        />
+
+        <textarea
+          placeholder="Type your Message Here...."
+          tabindex="5"
+          required=""
+        ></textarea>
+
+        <button
+          name="submit"
+          type="submit"
+          id="contact-submit"
+          data-submit="...Sending"
+        >
+          Submit
+        </button>
+      </form>
+    </div>
+  </div>
+<!-- </section> -->
+
+
+
+
+      <footer class="footer">
+        <div class="shell">
+          <div class="footer__inner">
+            <a href="#" class="footer__link">
+              <h4>CONTACT</h4>
+            </a>
+            <p>Thank you for stopping by! Feel free to contact me anytime.</p>
+            <!-- Social icons -->
+            <div class="socials">
+              <ul>
+                <li>
+                  <a href="mailto:katielarry2012@gmail.com">
+                    <img src="css/images/ico-mail.png" class="ico-mail" />
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://www.linkedin.com/in/katielarry/">
+                    <img
+                      src="css/images/ico-linkedin.png"
+                      class="ico-linkedin"
+                    />
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://github.com/">
+                    <img src="css/images/github.png" class="ico-cat" />
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://dribbble.com/el8403">
+                    <i class="ico-globe"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
