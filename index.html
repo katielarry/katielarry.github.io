@@ -10,14 +10,20 @@
     />
     <title>Katie Larry's Portfolio</title>
     <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/button.css" />
+    <link rel="stylesheet" href="css/index/footer.css" />
+    <link rel="stylesheet" href="css/index/header.css" />
+    <link rel="stylesheet" href="css/index/intro.css" />
+    <link rel="stylesheet" href="css/index/tools.css" />
+    <link rel="stylesheet" href="css/index/section.css" />
+    <link rel="stylesheet" href="css/index/base.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Lato:500|Montserrat:300"
       rel="stylesheet"
     />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="jquery.js"></script>
-    <script src="js/test.js"></script>
+    <script src="js/animation.js"></script>
     <script src="js/functions.js"></script>
     <script>
       if (screen.width <= 767) {
@@ -58,7 +64,6 @@
       </header>
       <!-- Intro -->
       <div class="intro animated">
-        <!-- <div class="shell"> -->
         <div class="intro__content">
           <p class="animated">
             <strong
@@ -66,14 +71,13 @@
               >LARRY.<br />I LOVE TO CREATE<br />
               BEAUTIFUL <span style="color: #F07E81"> INTERFACES </span> +<br />
               EXCELLENT
-              <span style="color: #F07E81"> USER EXPERIENCES </span>.<br 
+              <span style="color: #F07E81"> USER EXPERIENCES </span>.<br
             /></strong>
           </p>
         </div>
         <a href="#section-next" class="intro__link">
           <i class="ico-chevron"></i>
         </a>
-        <!-- </div> -->
       </div>
       <div class="projects-container">
         <!-- Section Bags with a Purpose -->
@@ -93,12 +97,10 @@
                 </p>
                 <div class="section__actions">
                   <a
-                    href="project.html"
+                    href="#project.html"
                     class="btn btn--pink section__btn white-text"
                     >View case study</a
                   >
-                  <!-- <a href="project.html" class="btn btn--blue section__btn" -->
-                  <!-- <a>View case study</a> -->
                 </div>
               </div>
               <div class="section__aside animated">
@@ -140,7 +142,7 @@
                   >
                 </div>
               </div>
-              <div class="section__aside animated">
+              <div class="section__aside animated oneplace_image_container">
                 <img
                   class="projects_pic oneplace_image"
                   src="css/images/oneplace.png"
@@ -214,7 +216,6 @@
         </div>
       </section>
       <!-- Section Tools I Use -->
-
       <section class="tool-section" data-ix="tool-section">
         <div class="tool-container animated">
           <h1 class="about-text smaller tools-text animated">TOOLS I USE</h1>
@@ -269,7 +270,6 @@
             <div class="text-block-7">INVISION</div>
           </div>
         </div>
-        <!-- </div> -->
       </section>
       <!-- Footer -->
       <footer class="footer">

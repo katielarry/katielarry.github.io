@@ -1,0 +1,234 @@
+.nav a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+}
+
+.nav li {
+  display: inline-block;
+  opacity: 0.2;
+  visibility: hidden;
+  -webkit-transform: translateY(-25px);
+  -ms-transform: translateY(-25px);
+  transform: translateY(-25px);
+  transition: opacity 0.7s, visibility 0.7s, transform 0.7s,
+    -webkit-transform 0.7s;
+}
+
+.nav li.animated-in {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+
+.nav li:last-child {
+  transition-delay: 0.4s;
+}
+
+.nav li:nth-last-child(1) {
+  transition-delay: 0.45s;
+}
+
+.nav li:nth-last-child(2) {
+  transition-delay: 0.55s;
+}
+
+.nav li:nth-last-child(3) {
+  transition-delay: 0.65s;
+}
+
+.nav li:nth-last-child(4) {
+  transition-delay: 0.75s;
+}
+
+.nav li + li {
+  margin-left: 46px;
+}
+
+.header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.header__nav {
+  padding: 35px 53px 25px 0;
+  text-align: right;
+  transition: padding-top 0.3s, padding-bottom 0.3s, opacity 0.5s,
+    visibility 0.5s, margin-top 0.3s;
+}
+
+.burger-menu {
+  display: none;
+  width: 20px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 31px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 1s, visibility 1s;
+  transition-delay: 0.25s;
+}
+
+.burger-menu span {
+  position: relative;
+  display: block;
+  height: 3px;
+  top: 0;
+  background: #000;
+  transition: 0.3s;
+}
+
+.burger-menu span + span {
+  margin-top: 4px;
+}
+
+.active span:nth-child(1) {
+  top: 7px;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  transition: top 0.3s, -webkit-transform 0.3s 0.3s;
+  transition: top 0.3s, transform 0.3s 0.3s;
+  transition: top 0.3s, transform 0.3s 0.3s, -webkit-transform 0.3s 0.3s;
+}
+
+.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.active span:nth-child(3) {
+  top: -7px;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  transition: top 0.3s, -webkit-transform 0.3s 0.3s;
+  transition: top 0.3s, transform 0.3s 0.3s;
+  transition: top 0.3s, transform 0.3s 0.3s, -webkit-transform 0.3s 0.3s;
+}
+
+.logo {
+  background-image: url(../images/logo.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 21px;
+  height: 32px;
+  display: block;
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  top: 50%;
+  opacity: 0;
+  visibility: hidden;
+  transition: margin-top 0.3s, opacity 1s, visibility 1s;
+  transition-delay: 0.5s;
+  margin: 10px 0 0 -503px;
+}
+
+.animated-in {
+  opacity: 1;
+  visibility: visible;
+}
+
+.ico-chevron {
+  background-image: url(../images/chevrondown.png);
+  background-size: cover;
+  width: 26px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 0;
+}
+
+@media (max-width: 767px) {
+  .nav {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 100%;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 0.1s, visibility 0.1s;
+  }
+  .open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  .nav ul {
+    display: block;
+    margin: 0 15px;
+  }
+  .nav li {
+    display: block;
+    margin-bottom: 15px;
+    margin-top: 5px;
+  }
+  .nav li + li {
+    margin-left: 0;
+    margin-top: 11px;
+  }
+
+  .header__nav {
+    padding: 0 20px 0;
+    margin-top: 0x;
+  }
+  .logo {
+    position: static;
+    margin: 0 auto;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+  .header {
+    padding: 18px 0;
+    transition: padding 0.3s;
+  }
+  .fixed {
+    padding: 1px 0;
+  }
+  .burger-menu {
+    display: block;
+  }
+}
+
+@media (max-width: 414px) {
+  .header__nav {
+    padding: 0 20px 0;
+    margin-top: 0x;
+    visibility: hidden;
+  }
+  .logo {
+    float: left;
+    position: static;
+    margin: 0 auto;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+    margin-left: -150px;
+  }
+  .header {
+    padding: 20px 0;
+    transition: padding 0.3s;
+  }
+  .fixed {
+    padding: 13px 0;
+  }
+  .nav a {
+    color: #000;
+    font-weight: lighter;
+    font-size: 18px;
+    letter-spacing: 0px;
+    font-weight: 400;
+  }
+}

@@ -1,0 +1,766 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+main {
+  padding: 0 13%;
+  max-width: 1450px;
+  margin: 0 auto;
+  width: 56%;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+section {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.shell {
+  max-width: 1190px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: bold;
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 64px;
+}
+
+h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 45px;
+}
+
+h3 {
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: bolder;
+  letter-spacing: 0.01rem;
+  margin: 70px 0 15px 0;
+}
+
+h4 {
+  font-size: 36px;
+  letter-spacing: -0.055em;
+}
+
+.h4 {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.design-role {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.07rem;
+  padding: 4px 1px 0 0;
+}
+
+p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+li {
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+.caseStudy-text {
+  font-family: "montserrat";
+  font-weight: 300;
+  font-size: 18px;
+  letter-spacing: 0.04rem;
+  line-height: 24px;
+}
+
+.desc {
+  font-family: "montserrat", sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.025rem;
+  line-height: 33px;
+}
+
+.label {
+  color: #979797;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  font-size: 40px;
+  letter-spacing: 0.07rem;
+  margin-top: 25px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.align-top {
+  vertical-align: top;
+}
+
+.colored {
+  background-color: #f3f4fa;
+  padding: 30px 60px 60px 60px;
+}
+
+.half {
+  display: inline-block;
+  width: 39%;
+}
+
+.small-third {
+  display: inline-block;
+  width: 20%;
+  vertical-align: top;
+  text-align: left;
+}
+.large-third {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 12% 0 7%;
+  text-align: left;
+}
+
+.section-label {
+  float: left;
+  width: 16%;
+}
+
+.textbox {
+  display: inline-block;
+  width: 100%;
+}
+
+.margin-top {
+  margin-top: 16px;
+}
+
+.center {
+  text-align: center;
+}
+
+.num-list {
+  font-family: "Lato", sans-serif;
+  letter-spacing: 0.04rem;
+  line-height: normal;
+  font-size: 18px;
+  margin-bottom: auto;
+}
+.num-list li {
+  padding: 5px 0;
+}
+
+.third {
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+  margin: 20px;
+}
+
+.med-text {
+  font-family: "PaulGrotesk-Medium";
+  line-height: 25px;
+}
+
+.percent-desc {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.05rem;
+  line-height: 20px;
+  text-align: left;
+  width: 80%;
+}
+
+.user-research {
+  margin-left: 10%;
+}
+
+h2.user-research {
+  margin-top: 25px;
+}
+
+.user-research .third {
+  margin: 0 auto;
+  width: 30%;
+}
+
+.persona-l {
+  padding: 0 5% 0 0;
+}
+
+.persona-l .caseStudy-text,
+.persona-r .caseStudy-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.01rem;
+  line-height: 30px;
+}
+
+.persona-r {
+  padding: 0 5% 0 0;
+}
+
+.personas .half {
+  width: 50%;
+}
+
+#userflowsketchimage {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.smaller {
+  max-width: 100%;
+}
+
+.container {
+  padding: 30px 60px 60px 60px;
+}
+.container__image {
+  display: inline-block;
+  vertical-align: top;
+  width: 46%;
+  margin-top: 20px;
+}
+
+.container__text {
+  margin: 15px;
+  margin-top: 50px;
+  display: inline-block;
+  width: 46%;
+  padding: 15px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.prototypes {
+  display: inline;
+  width: 100%;
+  height: 300px;
+}
+
+.prototypes a p {
+  color: #f07e81;
+  font-family: "Montserrat", sans-serif;
+}
+
+.prototypes a:hover p {
+  color: #f0cf7e;
+}
+
+.half > a {
+  margin: 0 auto;
+}
+
+.desktop-gif {
+  width: 40%;
+  background-image: url("css/images/desktop-icon.gif");
+  background-repeat: no-repeat;
+  background-size: 50px;
+  background-position: 50% -3%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.desktop-icon:hover {
+  background-position: 50% 100%;
+}
+
+.large-textbox {
+  margin: 0 20%;
+  width: 60%;
+}
+
+@media screen and (max-width: 1080px) {
+  main {
+    max-width: 90%;
+    padding: 0 10%;
+  }
+
+  h3 {
+    font-family: "Lato", sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    letter-spacing: 0.01rem;
+    line-height: 60px;
+    margin: 30px 0 15px 0;
+  }
+
+  .half .caseStudy-text {
+    font-size: 16px;
+    padding: 0 20px;
+  }
+
+  .half h4 {
+    padding: 0 20px;
+  }
+
+  .section-label {
+    width: 12%;
+  }
+
+  .margin-left {
+    margin-left: 12%;
+  }
+
+  .small-third {
+    width: 28%;
+    text-align: center;
+  }
+
+  .large-third {
+    width: 28%;
+    margin: 0 4% 0 4%;
+    text-align: center;
+  }
+  .large-third .right,
+  .large-third .left {
+    float: none;
+  }
+
+  .desc {
+    letter-spacing: 0.05rem;
+  }
+
+  .persona-l {
+    padding: 0 25px 0 5%;
+  }
+
+  .persona-r {
+    padding: 0 5% 0 25px;
+  }
+
+  .personas .half .caseStudy-text {
+    padding-left: 0;
+  }
+
+  .textbox {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  main {
+    padding: 0 5%;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  section {
+    margin: 50px 0;
+  }
+
+  .colored {
+    padding: 7%;
+  }
+
+  .colored section {
+    margin: 0;
+  }
+
+  .margin-left {
+    margin-left: 10%;
+  }
+
+  .textbox {
+    width: 80%;
+    padding-top: 20px;
+  }
+
+  nav a {
+    display: inline-block;
+  }
+
+  nav > ul > li > a {
+    font-size: 17px;
+    padding-top: 15px;
+  }
+
+  h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  h3 {
+    font-size: 20px;
+    letter-spacing: 0.01rem;
+    margin: 30px 0 10px 0;
+    padding-bottom: 10px;
+    line-height: 30px;
+  }
+
+  h4 {
+    font-size: 25px;
+    margin: 10px 0;
+  }
+
+  p.desc {
+    margin-bottom: 0;
+  }
+
+  .caseStudy-text {
+    font-size: 18px;
+    letter-spacing: 0.04rem;
+    line-height: 24px;
+  }
+
+  .desc {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .label {
+    font-size: 30px;
+    margin: 0 auto;
+  }
+
+  .section-label,
+  .textbox {
+    float: none;
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+
+  .num-list {
+    font-family: "Lato", sans-serif;
+    letter-spacing: 0.03rem;
+    line-height: 24px;
+    font-size: 16px;
+  }
+  .num-list li {
+    padding: 5px 0;
+  }
+
+  .med-text {
+    font-family: "Lato", sans-serif;
+    line-height: 25px;
+  }
+
+  .percent-desc {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.05rem;
+    line-height: 15px;
+    text-align: left;
+    width: 90%;
+  }
+
+  h2.user-research {
+    margin-top: 10px;
+  }
+
+  .user-research {
+    margin-left: 10%;
+  }
+
+  .user-research .third {
+    margin-left: 0;
+    width: 27%;
+  }
+
+  .persona-l,
+  .persona-r {
+    padding: 0 5%;
+  }
+
+  .persona-l p.caseStudy-text,
+  .persona-r p.caseStudy-text {
+    font-size: 18px;
+    padding: 0;
+  }
+
+  .personas h3 {
+    line-height: 30px;
+  }
+
+  .text-white {
+    color: white;
+  }
+
+  .large-textbox {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  footer {
+    height: 60px;
+    text-align: center;
+    margin-top: 35px;
+  }
+
+  footer nav {
+    padding: 6px 5%;
+  }
+
+  footer > div > p {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  h3 {
+    line-height: 40px;
+  }
+  .textbox,
+  .section-label,
+  .half {
+    width: 100%;
+  }
+
+  .half {
+    margin: 15px 0;
+  }
+
+  .half h4 {
+    padding: 0;
+  }
+
+  .mobile-half {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 48%;
+  }
+
+  .third {
+    margin: 30px 0;
+  }
+
+  .top {
+    padding-top: 50px;
+  }
+
+  /*personas*/
+  .personas .half {
+    float: none;
+    width: 100%;
+  }
+
+  .small-third,
+  .large-third {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 0;
+  }
+
+  .user-research .third {
+    width: 49%;
+    text-align: left;
+  }
+
+  footer {
+    height: 80px;
+    text-align: center;
+    margin-top: 35px;
+    padding-top: 20px;
+  }
+
+  footer > div > nav {
+    display: none;
+  }
+
+  footer a.read-more {
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+  }
+
+  footer a.read-more i {
+    font-size: 16px;
+  }
+
+  footer i {
+    font-size: 30px;
+  }
+
+  footer > div > p {
+    display: block;
+    padding: 0;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  main {
+    padding: 0;
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  body {
+    max-width: 100%;
+  }
+
+  header {
+    margin: 0 6% 30px 6%;
+  }
+
+  section {
+    margin: 40px 0;
+  }
+
+  .mobile-full {
+    display: block;
+    width: 100%;
+  }
+  .mobile-image {
+    height: 320px;
+  }
+}
+
+.half {
+  display: block;
+  width: 100%;
+}
+.half h4,
+.half p {
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+.third {
+  margin: 30px 0;
+}
+
+h3 {
+  margin: 30px 0 0px 0;
+}
+.third.mobile-half {
+  text-align: left;
+}
+.textbox {
+  padding-top: 0;
+}
+.caseStudy-text {
+  font-size: 18px;
+}
+
+.swot-analysis {
+  display: inline-block;
+  padding-left: 5%;
+  padding-right: 15%;
+}
+.link-container {
+  text-align: center;
+}
+.num-list {
+  line-height: 26px;
+  font-size: 16px;
+  letter-spacing: 0.04rem;
+}
+.percent-desc {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.04rem;
+  line-height: 18px;
+}
+.persona-l .caseStudy-text,
+.persona-r .caseStudy-text {
+  line-height: 25px;
+}
+.half .caseStudy-text .persona-r {
+  padding: 0px;
+}
+
+h2.user-research {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.user-research {
+  margin-left: 15%;
+  margin-bottom: 5%;
+  margin-top: 30px;
+}
+
+.user-research h3 {
+  margin-top: 0;
+}
+.user-research .third {
+  margin-top: 10px;
+  width: 30%;
+}
+
+.personas {
+  margin: 0 5%;
+}
+.persona-l,
+.persona-r {
+  padding: 0;
+}
+
+.quarter {
+  display: block;
+  width: 100%;
+}
+
+.smaller {
+  max-width: 100%;
+}
+
+.large-textbox {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+@media (max-width: 620px) {
+  .container__text {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    padding: 10px 30px 30px 30px;
+  }
+
+  .container__image {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+  }
+
+  .container__text {
+    margin: 15px;
+    display: inline-block;
+    width: 100%;
+  }
+}
