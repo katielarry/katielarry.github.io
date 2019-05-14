@@ -1354,8 +1354,8 @@ body {
 /* prototypes */
 .prototypes {
   display: inline;
-  /* width: 100%;
-  height: 300px; */
+  width: 100%;
+  height: 300px;
 }
 
 .prototypes a p {
@@ -1372,26 +1372,26 @@ body {
 }
 
 .desktop-gif {
-  width: 50%;
-  /* background-image: url("css/images/desktop-icon.gif"); */
-  /* background-repeat: no-repeat; */
-  /* background-size: 50px; */
-  /* background-position: 50% -3%; */
-  /* height: 150px;
-  margin-bottom: 15px; */
+  width: 40%;
+  background-image: url("css/images/desktop-icon.gif"); */
+  background-repeat: no-repeat;
+  background-size: 50px;
+  background-position: 50% -3%;
+  height: auto;
+  margin-bottom: 15px;
 }
-.mobile-icon {
+/* .mobile-icon {
   background-image: url("../images/Common/mobile-icon.gif");
   background-repeat: no-repeat;
   background-size: 170px;
   background-position: 50% -5%;
   height: 160px;
   margin-bottom: 15px;
-}
+} */
 
-.mobile-icon:hover {
+/* .mobile-icon:hover {
   background-position: 50% 117%;
-}
+} */
 
 .desktop-icon:hover {
   background-position: 50% 100%;
@@ -2196,7 +2196,8 @@ font-size: 0;
 
 @media screen and (max-width: 950px) {
   .flows.off {
-    display: none;
+    margin-bottom: 10%;
+    /* display: none; */
   }
 
   /* a {
@@ -2563,8 +2564,9 @@ font-size: 0;
   /* prototypes */
   /* conclusion */
   .large-textbox {
-    margin: 0 auto;
-    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+    /* width: 80%; */
   }
 
   /***----------------------------***/
@@ -2814,9 +2816,6 @@ font-size: 0;
     margin: 40px 0;
   }
 
-  .off {
-    display: none;
-  }
 
   .hide {
     opacity: 0;
@@ -2999,9 +2998,7 @@ font-size: 0;
     display: block;
     margin-bottom: 50px;
   }
-  a.off {
-    display: none;
-  }
+
   /* h1 {
     font-size: 56px;
   } */
@@ -3125,6 +3122,8 @@ font-size: 0;
   }
   .swot-analysis {
     display: inline-block;
+    padding-left: 5%;
+    padding-right: 15%;
   }
   .link-container{
     text-align: center
@@ -3259,8 +3258,9 @@ font-size: 0;
   }
   /* prototypes */ /* conclusion */
   .large-textbox {
-    margin: 0;
-    width: 100%;
+    margin-left: 15%;
+    margin-right: 15%;
+    /* width: 100%; */
   }
   /***----------------------------***/ /***------ About - mobile ------***/ /***----------------------------***/
   .about-social-nav {

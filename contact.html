@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Katie Larry's Portfolio</title>
     <link rel="stylesheet" href="css/reset.css" />
-        <link rel="stylesheet" href="css/index.css" />
+        <!-- <link rel="stylesheet" href="css/index.css" /> -->
     <link rel="stylesheet" href="css/project.css" />
     <link rel="stylesheet" href="css/contact.css" />
     <link
@@ -25,6 +25,7 @@
         );
       }
     </script>
+
   </head>
   <body>
     <div class="wrapper">
@@ -54,8 +55,41 @@
         </div>
       </header>
 
-      <div class="intro animated">
-              <!-- <div class="shell"> -->
+      <section class="section section--purple" id="section-next">
+				<div class="shell">
+					<div class="section__inner">
+						<div class="section__content animated animated-in undefined">
+
+                            <h3>I look forward to connecting with you.</h3>
+
+                            <p>I am always interested in making new connections and discussing design in further detail. I'm excited to hear from you! </p>
+
+
+
+            <p style="text-align: left;"><strong>- katielarry2012@gmail.com</strong></p>
+    </div>
+
+
+<!---------- Form right side content --------------->
+
+            <form id="contact" action="https://formspree.io/katielarry2012@gmail.com" method="POST">
+
+                <input placeholder="Your name" type="text" tabindex="1" required="" autofocus="">
+
+                <input placeholder="Your Email Address" type="email" tabindex="2" required="">
+
+                <textarea placeholder="Type your Message Here..." tabindex="5" required=""></textarea>
+
+                <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+
+            </form>
+        </div>
+            </div>
+
+    </section>
+
+      <!-- <div class="intro animated">
+              <div class="shell">
               <div class="intro__content">
         <h3>
           Have a project<br />
@@ -71,7 +105,7 @@
 
       <!-- -------- Form right side content ------------- -->
 
-      <form
+ <!-- <form
         id="contact"
         action="https://formspree.io/edward.sb.lim@gmail.com"
         method="POST"
@@ -105,11 +139,10 @@
         >
           Submit
         </button>
-      </form>
+      </form> -->
     </div>
   </div>
 <!-- </section> -->
-
 
 
 
