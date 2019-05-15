@@ -119,9 +119,9 @@ b {
   margin-bottom: 200px;
 }
 
-.oneplace_image_container {
+/* .oneplace_image_container {
   height: 715px;
-}
+} */
 
 .white-text {
   color: #ffffff;
@@ -143,15 +143,19 @@ b {
   h4 {
     font-size: 36px;
   }
-  .hidden-xs {
-    display: none !important;
-  }
+
   .visible-xs-block {
     display: block !important;
   }
   .logo-OnePlace {
     width: 82px;
     height: 16px;
+  }
+  main {
+    padding: 0 13%;
+    max-width: 1450px;
+    /* margin: 0 auto; */
+    width: 100%;
   }
 }
 
@@ -165,5 +169,9 @@ b {
   }
   #oneplaceimage {
     margin-right: 0;
+  }
+
+  .oneplace_image_container {
+    height: 400px;
   }
 }

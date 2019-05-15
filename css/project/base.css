@@ -401,7 +401,7 @@ h2.user-research {
   }
 
   .textbox {
-    width: 80%;
+    /* width: 80%; */
     padding-top: 20px;
   }
 
@@ -455,7 +455,7 @@ h2.user-research {
   .section-label,
   .textbox {
     float: none;
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
     padding-bottom: 20px;
   }
@@ -645,6 +645,29 @@ h2.user-research {
   .mobile-image {
     height: 320px;
   }
+
+  .desktop-gif {
+    width: 100%;
+  }
+
+  .large-textbox {
+    margin: 0;
+  }
+
+  .container__text p {
+    width: 90%;
+  }
+
+  .caseStudy-text p {
+    width: 90%;
+  }
+  .container {
+    padding: 0;
+  }
+
+  .container__image {
+    width: 100%;
+  }
 }
 
 .half {
@@ -701,24 +724,6 @@ h3 {
   padding: 0px;
 }
 
-h2.user-research {
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
-.user-research {
-  margin-left: 15%;
-  margin-bottom: 5%;
-  margin-top: 30px;
-}
-
-.user-research h3 {
-  margin-top: 0;
-}
-.user-research .third {
-  margin-top: 10px;
-  width: 30%;
-}
-
 .personas {
   margin: 0 5%;
 }
@@ -747,7 +752,7 @@ h2.user-research {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767px) and (min-width: 500px) {
   .container {
     padding: 10px 30px 30px 30px;
   }
@@ -761,6 +766,14 @@ h2.user-research {
   .container__text {
     margin: 15px;
     display: inline-block;
+    width: 100%;
+  }
+
+  main {
+    width: 100%;
+  }
+
+  .textbox {
     width: 100%;
   }
 }
