@@ -27,12 +27,11 @@
 .intro__content p {
   position: absolute;
   text-align: left;
-  letter-spacing: -0.02em;
-  font-size: 55px;
+  font-size: 70px;
   margin-top: -30px;
   margin-left: -356px;
   width: 1000px;
-  line-height: 60px;
+  line-height: 70px;
   top: -55px;
   color: #000000;
   padding-left: 5px;
