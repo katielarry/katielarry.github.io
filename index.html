@@ -66,11 +66,15 @@
         <div class="intro__content">
           <p class="animated">
             <strong
-              >HELLO.<br />I'M<span style="color: #F07E81"> KATIE </span
+              >HELLO.<br />I'M<span> KATIE </font></span
               >LARRY.<br />I LOVE TO CREATE<br />
-              BEAUTIFUL <span style="color: #F07E81"> INTERFACES </span> +<br />
+              BEAUTIFUL
+              <span>INTERFACES</font>
+              </span>
+              +<br />
               EXCELLENT
-              <span style="color: #F07E81"> USER EXPERIENCES </span>.<br
+              <span>USER EXPERIENCES</font> </span
+              >.<br
             /></strong>
           </p>
         </div>
@@ -95,10 +99,8 @@
                   just by using one simple bag.
                 </p>
                 <div class="section__actions">
-                  <a
-                    href="#project.html"
-                    class="btn btn--pink section__btn white-text"
-                    >View case study</a
+                  <a href="#project.html" class="btn btn--pink section__btn"
+                  style="margin:10px 0 0 0">View case study</a
                   >
                 </div>
               </div>
@@ -109,6 +111,7 @@
                   alt="Picture of a Bag."
                   width="1576"
                   height="1132"
+                  id="bagswithapurposeimg"
                 />
               </div>
             </div>
@@ -121,9 +124,12 @@
           <div class="shell">
             <div class="section__inner">
               <div class="section__content animated">
-                <a href="#" class="logo-OnePlace logo-nakedbox">
-                  One<strong>Place</strong>
-                </a>
+                <img
+                class="projects_pic"
+                src="css/images/oneplacelg.png"
+                alt="Picture of design on a desktop."
+                id="oneplacelg"
+                  />                
                 <h3>
                   GO TO ONEPLACE<span class="visible-xs-block"></span> FOR
                   EVERYTHING.
@@ -134,10 +140,8 @@
                   productivity needs.
                 </p>
                 <div class="section__actions">
-                  <a
-                    href="project.html"
-                    class="btn btn--pink section__btn white-text"
-                    >View case study</a
+                  <a href="project.html" class="btn btn--pink section__btn"
+                  style="margin:10px 0 0 0">View case study</a
                   >
                 </div>
               </div>
@@ -156,8 +160,8 @@
         <section class="section section--black section--secondary">
           <div class="shell">
             <div class="section__inner">
-              <div class="section__content animated">
-                <h3 class="white-text">UX PROCESS</h3>
+              <div class="section__content animated" id="uxprocesswords">
+                <h3 class="white-text">MY UX PROCESS</h3>
                 <p>
                   <strong class="white-text"
                     >USER RESEARCH | IA | WIREFRAME | PROTOTYPES</strong
@@ -178,6 +182,7 @@
                   class="projects_pic"
                   src="css/images/uxprocess.png"
                   alt="Picture of wireframes."
+                  id="uxprocessimg"
                 />
               </div>
             </div>
@@ -190,8 +195,8 @@
       >
         <div class="shell">
           <div class="section__inner">
-            <div class="section__content animated">
-              <h3>UI PROCESS</h3>
+            <div class="section__content animated" id="uiprocesswords">
+              <h3>MY UI PROCESS</h3>
               <p>
                 <strong>UI ELEMENTS | INTERACTIONS | BRANDING</strong><br />
               </p>
@@ -209,6 +214,7 @@
                 class="projects_pic"
                 src="css/images/uiprocess.png"
                 alt="Picture of design on a desktop."
+                id="uiprocessimg"
               />
             </div>
           </div>
@@ -222,7 +228,7 @@
             <img
               src="css/images/github.png"
               alt="Picture of the GitHub logo."
-              width="102"
+              width="55"
             />
             <div class="text-block-7">GITHUB</div>
           </div>
@@ -231,7 +237,7 @@
             <img
               src="css/images/html.png"
               alt="Picture of the HTML logo."
-              width="143.25"
+              width="40"
             />
             <div class="text-block-7">HTML</div>
           </div>
@@ -239,7 +245,7 @@
             <img
               src="css/images/css.png"
               alt="Picture of the CSS logo."
-              width="143.25"
+              width="50"
             />
             <div class="text-block-7">CSS</div>
           </div>
@@ -247,7 +253,7 @@
             <img
               src="css/images/javascript.png"
               alt="Picture of the JavaScript logo."
-              width="143.25"
+              width="40"
             />
             <div class="text-block-7">JAVASCRIPT</div>
           </div>
@@ -256,7 +262,7 @@
             <img
               src="css/images/figma.png"
               alt="Picture of the Figma logo."
-              width="95.75"
+              width="30"
             />
             <div class="text-block-7">FIGMA</div>
           </div>
@@ -264,7 +270,7 @@
             <img
               src="css/images/invision.png"
               alt="Picture of the Invision logo."
-              width="107"
+              width="50"
             />
             <div class="text-block-7">INVISION</div>
           </div>
@@ -296,7 +302,7 @@
                 </li>
                 <li>
                   <a href="https://github.com/">
-                    <img src="css/images/github.png" class="ico-cat" />
+                    <img src="css/images/githubcontact.png" class="ico-cat" />
                   </a>
                 </li>
                 <li>
@@ -321,6 +327,21 @@
       gtag("js", new Date());
 
       gtag("config", "UA-141370331-1");
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-141370331-2"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-141370331-2");
     </script>
   </body>
 </html>

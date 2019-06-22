@@ -1,5 +1,5 @@
 nav ul {
-  float: right;
+  margin-right: 100px;
 }
 
 nav a {
@@ -123,10 +123,12 @@ nav > ul > li > a {
 .header .header__nav {
   padding-top: 35px;
   padding-bottom: 25px;
+  margin-right: -52px;
 }
 
 .header .logo {
-  margin-top: 0;
+  /* margin-top: 0; */
+  margin-left: -28%;
 }
 
 .animated-in {
@@ -142,7 +144,7 @@ nav > ul > li > a {
 
   .header .logo {
     margin-top: 0;
-    margin: 0 auto;
+    margin-left: -50%;
     top: 18%;
     -webkit-transform: none;
     -ms-transform: none;
@@ -201,8 +203,8 @@ nav > ul > li > a {
   top: 70%;
   transition: margin-top 0.3s, opacity 1s, visibility 1s;
   transition-delay: 1.35s;
-  margin-left: -503px;
-  margin-top: 20px;
+  margin-left: -570px;
+  margin-top: -15px;
 }
 
 .burger-menu {

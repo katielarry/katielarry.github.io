@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   min-width: 320px;
   background: #fff;
@@ -25,6 +29,7 @@ a {
 }
 
 a:hover {
+  color: blue;
   text-decoration: none;
   opacity: 0.8;
 }
@@ -128,9 +133,37 @@ b {
 }
 
 #oneplaceimage {
-  width: 88%;
-  float: right;
-  margin-top: 35px;
+  width: 120%;
+  margin-left: -12%;
+}
+
+#oneplacelg {
+  margin-bottom: 5px;
+  width: 30%;
+}
+
+#bagswithapurposeimg {
+  width: 135%;
+  margin-left: -20%;
+}
+
+#uxprocessimg {
+  width: 140%;
+  /* float: right; */
+  margin-left: -20%;
+}
+
+#uxprocesswords {
+  margin-top: -7%;
+}
+
+#uiprocessimg {
+  width: 120%;
+  margin-left: -12%;
+}
+
+#uiprocesswords {
+  margin-top: -7%;
 }
 
 @media (max-width: 767px) {
@@ -143,6 +176,11 @@ b {
   h4 {
     font-size: 36px;
   }
+
+  #oneplacelg {
+    margin-bottom: 5px;
+    width: 30%;
+    margin-left: 35%;
 
   .visible-xs-block {
     display: block !important;

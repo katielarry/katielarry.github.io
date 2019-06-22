@@ -6,6 +6,7 @@
   color: #fff;
   background: #fff;
   background-size: 400% 400%;
+  background-image: url(css/images/hero-image.png);
   -webkit-animation: Gradient 10s ease infinite;
   -moz-animation: Gradient 10s ease infinite;
   -ms-animation: Gradient 10s ease infinite;
@@ -29,7 +30,7 @@
   text-align: left;
   font-size: 70px;
   margin-top: -30px;
-  margin-left: -356px;
+  margin-left: -425px;
   width: 1000px;
   line-height: 70px;
   top: -55px;

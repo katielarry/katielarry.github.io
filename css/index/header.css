@@ -1,3 +1,7 @@
+#smoothscroll {
+  scroll-behavior: smooth;
+}
+
 .nav a {
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
@@ -55,6 +59,7 @@
 
 .header__nav {
   padding: 35px 53px 25px 0;
+  margin-right: -6px;
   text-align: right;
   transition: padding-top 0.3s, padding-bottom 0.3s, opacity 0.5s,
     visibility 0.5s, margin-top 0.3s;
@@ -131,7 +136,7 @@
   visibility: hidden;
   transition: margin-top 0.3s, opacity 1s, visibility 1s;
   transition-delay: 0.5s;
-  margin: 10px 0 0 -503px;
+  margin: 10px 0 0 -570px;
 }
 
 .animated-in {
