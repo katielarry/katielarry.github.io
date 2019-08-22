@@ -29,7 +29,7 @@ a {
 }
 
 a:hover {
-  color: blue;
+  /* color: blue; */
   text-decoration: none;
   opacity: 0.8;
 }

@@ -236,4 +236,16 @@
     letter-spacing: 0px;
     font-weight: 400;
   }
+
+  @media (max-width: 414px)
+.logo {
+    float: left;
+    position: static;
+    margin: 0 auto;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+    margin-left: 7%;
+
+  
 }

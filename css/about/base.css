@@ -96,4 +96,14 @@ a {
     margin-left: 5%;
     margin-right: 5%;
   }
+
+  .logo {
+    float: left;
+    position: static;
+    margin: 0 auto;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+    margin-left: 7%;
+}
 }
